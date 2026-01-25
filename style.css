@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    background-color: #19A1AE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "Kumbh Sans";
+    background-image: url(./photo/Background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container{
+    width: 350px;
+    height: 374px;
+    background-color: aliceblue;
+    border-radius: 15px;
+}
+
+.box-photo{
+    width: 350px;
+    height: 144px;
+}
+
+.profile-photo{
+   text-align: center;
+   margin-top: -50px;
+}
+
+.profile-info{
+    text-align: center;
+
+    span{
+        display: inline-block;
+    }
+}
+
+.name {
+    width: 104px;
+    height: 23px;
+    display: inline;
+    color: #2E3349;
+}
+
+.number{
+    font-weight: 400;
+    color: #6B7082;
+    width: 21px;
+    height: 23px;
+}
+
+.city{
+    padding-top: 8px;
+    color: #6B7082;
+}
+
+.stats{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 24px;
+}
+
+.stats-item {
+    width: 56px;
+    height: 44px;
+    h2{
+        color: #2E3349;
+    }
+    p{
+        color: #6B7082;
+    }
+}
+
